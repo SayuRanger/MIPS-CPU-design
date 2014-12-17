@@ -1,0 +1,67 @@
+
+
+NET "clk" LOC = B8;
+NET "reset" LOC = A7;
+NET "start" LOC = P11;
+
+
+
+
+
+
+NET "dot" LOC = N13;
+
+NET "addpush" LOC = G12;
+NET "AorM" LOC = N3;
+#pin2ucf - Tue Mar 25 16:37:00 2014
+#The following constraints were newly added
+NET "led[5]" LOC = H12;
+NET "led_select[3]" LOC = K14;
+NET "led[6]" LOC = L14;
+NET "light[0]" LOC = M5;
+NET "light[1]" LOC = M11;
+NET "light[2]" LOC = P7;
+NET "light[3]" LOC = P6;
+NET "light[4]" LOC = N5;
+NET "light[5]" LOC = N4;
+NET "light[6]" LOC = P4;
+NET "light[7]" LOC = G1;
+NET "led[1]" LOC = L13;
+NET "led[2]" LOC = P12;
+NET "led_select[0]" LOC = F12;
+NET "led[3]" LOC = N11;
+NET "led_select[1]" LOC = J12;
+NET "led[4]" LOC = N14;
+NET "led_select[2]" LOC = M13;
+
+
+NET "led[0]" LOC = M12;
+
+
+NET "light[0]" SLEW = FAST;
+NET "light[1]" SLEW = FAST;
+NET "light[2]" SLEW = FAST;
+NET "light[3]" SLEW = FAST;
+NET "light[4]" SLEW = FAST;
+NET "light[5]" SLEW = FAST;
+NET "light[6]" SLEW = FAST;
+NET "light[7]" SLEW = FAST;
+NET "led_select[0]" SLEW = FAST;
+NET "led_select[1]" SLEW = FAST;
+NET "led_select[2]" SLEW = FAST;
+NET "led_select[3]" SLEW = FAST;
+NET "led[0]" SLEW = FAST;
+NET "led[1]" SLEW = FAST;
+NET "led[2]" SLEW = FAST;
+NET "led[3]" SLEW = FAST;
+NET "led[4]" SLEW = FAST;
+NET "led[5]" SLEW = FAST;
+NET "led[6]" SLEW = FAST;
+
+NET "regcount" LOC = M4;
+#Created by Constraints Editor (xc3s100e-cp132-4) - 2014/03/26
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 50%;
+
+
+NET "showRorM" LOC = L3;
